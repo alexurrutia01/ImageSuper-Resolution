@@ -6,7 +6,7 @@
 
 <b>Goal:</b> Upscale and improve the quality of low resolution images.
 
-The model has a total of 4 layers and each layer is a block consisting of a convolution, batch normalization, ReLU activation and upsampling.
+The model has a total of 4 layers and each layer is a block consisting of a convolution, batch normalization, ReLU activation and upsampling.</br>
 ![image](https://user-images.githubusercontent.com/72570569/173840632-3312918a-1fab-48cb-995f-ee62035cf83a.png)
 
 The dataset used to train and test the images is the STL-10 dataset. (https://cs.stanford.edu/~acoates/stl10/)
