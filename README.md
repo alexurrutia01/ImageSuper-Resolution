@@ -7,7 +7,7 @@
 <b>Goal:</b> Upscale and improve the quality of low resolution images.
 
 The model has a total of 4 layers and each layer is a block consisting of a convolution, batch normalization, ReLU activation and upsampling.
-![download](https://user-images.githubusercontent.com/72570569/173836534-2a66ec1e-3db9-4513-85b8-13cf1868b103.jpg)
+![image](https://user-images.githubusercontent.com/72570569/173840632-3312918a-1fab-48cb-995f-ee62035cf83a.png)
 
 The dataset used to train and test the images is the STL-10 dataset. (https://cs.stanford.edu/~acoates/stl10/)
 - 100.000 unlabeled images
@@ -33,3 +33,4 @@ In the second model for images of 32x32 pixels the input images are better but t
 #### Things to improve
 To improve the performance of this model we can try to implement a ResNet (or a different model) or a ESRGAN (Enhanced Super Resolution GAN) instead of just doing upsamplings on the input image.
 Another way to improve the model is to use more data (data augmentation) for training or use a dataset with images of higher resolution as the input, for example DIV2K.
+
